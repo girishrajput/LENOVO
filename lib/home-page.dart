@@ -5,11 +5,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const HomePage());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,8 +21,6 @@ class MyApp extends StatelessWidget {
         ),
         body: const Center(
           child: Text('Hello World'),
-        ),
-        drawer: Drawer(),
         ),
       ),
     );
